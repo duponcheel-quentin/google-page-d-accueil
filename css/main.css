@@ -163,10 +163,13 @@ li {
 }
 
 footer {
-    bottom: 0px;
-    position: absolute;
     width: 100%;
     list-style-type: none;
+}
+
+input {
+    height: 40px;
+    width: 570px;
 }
 
 /*end common rules*/
@@ -194,21 +197,31 @@ footer {
 
 /*start footer styles*/
 
+.ban {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .france{
-    margin-left: 30px;
+    width: 100%;
     text-align: left;
+    background-color: purple;
 }
 
 .basGauche {
-    background-color: blue;
+    width: 100%;
     display: flex;
-    align-items: flex-start;
+    background-color: green;
+
 }
 
 .basDroite {
-    background-color: yellow;
+    width: 100%;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: yellow;
 }
 
 /*end footer styles*/
@@ -219,10 +232,12 @@ footer {
 .recadrage {
     width: 272px;
     padding-top: 109px;
+    padding-bottom: 20px; 
 }
 
 .barre {
-    padding-top: 10px;
+    color: #c4c4c4;
+    box-shadow: 2px 2px 2px #c4c4c4;
 }
 
 .btnGoogle {
@@ -243,6 +258,9 @@ footer {
     border-radius: 2px;
 }
 
+main {
+    height: 80vh;
+}
 /*end main styles*/
 
 
